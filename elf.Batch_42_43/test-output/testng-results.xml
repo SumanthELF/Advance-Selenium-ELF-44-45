@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-20T16:59:21 IST" name="Suite" finished-at="2023-01-20T16:59:33 IST" duration-ms="11671">
+    <groups>
+      <group name="System">
+        <method signature="TC_Bikes_013_Test.kawasaki(java.lang.String)[pri:0, instance:bikes.TC_Bikes_013_Test@3738449f]" name="kawasaki" class="bikes.TC_Bikes_013_Test"/>
+      </group> <!-- System -->
+    </groups>
+    <test started-at="2023-01-20T16:59:21 IST" name="Test" finished-at="2023-01-20T16:59:33 IST" duration-ms="11671">
+      <class name="bikes.TC_Bikes_013_Test">
+        <test-method signature="kawasaki(java.lang.String)[pri:0, instance:bikes.TC_Bikes_013_Test@3738449f]" started-at="2023-01-20T16:59:21 IST" name="kawasaki" finished-at="2023-01-20T16:59:33 IST" duration-ms="11641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kawasaki -->
+      </class> <!-- bikes.TC_Bikes_013_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
