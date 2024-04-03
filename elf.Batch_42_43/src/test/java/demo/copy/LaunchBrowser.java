@@ -1,4 +1,4 @@
-package demo;
+package demo.copy;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -20,7 +20,7 @@ public class LaunchBrowser {
 
 		driver.findElement(By.id("vertical-tab-0")).click();
 
-//		driver.findElement(By.id("fl_email")).sendKeys("sanjana12@gmail.com");
+		driver.findElement(By.id("fl_email")).sendKeys("sanjana12@gmail.com");
 		driver.findElement(By.id("fl_password")).sendKeys("Abcd1234#");
 		driver.findElement(By.className("MuiButton-label")).click();
 
